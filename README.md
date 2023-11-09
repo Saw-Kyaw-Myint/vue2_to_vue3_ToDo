@@ -1,4 +1,4 @@
-# Tesging data X package
+# Testing data X package
 ## Packages
 - [vue-pug]()
 - [vuex.3]()
