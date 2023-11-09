@@ -16,7 +16,7 @@ div
 import { ref, toRefs } from "@vue/composition-api";
 import PrimaryButtton from "./PrimaryButton.vue";
 import { createNamespacedHelpers } from "vuex-composition-helpers";
-const { useState } = createNamespacedHelpers("testing");
+const { useState } = createNamespacedHelpers("Testing");
 
 export default {
   name: "HelloWorld",
