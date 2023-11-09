@@ -1,3 +1,5 @@
 {
-  "message": "TodoList"
+  "todoList": "TodoList",
+  "placeholder": "Add a task",
+  "add": "Add"
 }
