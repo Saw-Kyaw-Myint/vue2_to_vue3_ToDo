@@ -15,7 +15,7 @@
         
   ul.px-4.flex.flex-wrap.mt-4
     li.py-4(v-for="todo in  myTodos" :key="todo.id" class="w-1/3 p-3")
-      .p-3.rounded.bg-white.shadow
+      .p-3.rounded.bg-white.shadow-md.border
         .flex.flex-row-reverse
           button(@click="deleteTodo(todo.id)")
             delete-icon
