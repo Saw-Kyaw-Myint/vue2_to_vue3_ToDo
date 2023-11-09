@@ -1,4 +1,11 @@
-# testing
+# Tesging data X package
+## Packages
+- vue-pug
+- vuex.3
+- vue.2
+- vuex-helper
+- vue-composition-api
+- vue-i18n
 
 ## Project setup
 ```
