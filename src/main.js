@@ -3,7 +3,8 @@ import App from "./App.vue";
 import VueCompositionAPI from "@vue/composition-api";
 import store from "./store/index";
 import "./style.css";
-import i18n from './i18n'
+import i18n from "./i18n";
+import "./components/vee-validate-rule/rule";
 
 Vue.config.productionTip = false;
 Vue.use(VueCompositionAPI);
@@ -11,5 +12,5 @@ Vue.use(VueCompositionAPI);
 new Vue({
   store,
   i18n,
-  render: (h) => h(App)
+  render: (h) => h(App),
 }).$mount("#app");
